@@ -1,4 +1,19 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/zanereeves/CLionProjects/webDev -B /Users/zanereeves/CLionProjects/webDev/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/zanereeves/CLionProjects/webDev/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\zstev\CLionProjects\C_webserver -B C:\Users\zstev\CLionProjects\C_webserver\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.9s)
+CMake Error at CMakeLists.txt:6 (add_library):
+  Cannot find source file:
+
+    library.c
+
+
+CMake Error at CMakeLists.txt:6 (add_library):
+  No SOURCES given to target: webDev
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
